@@ -12,7 +12,7 @@ Specifically, our method outperforms other approaches in literature on the ``bal
 
 | Method                            |Label                                          |mAP        | $d'$ |
 |  --------------------------------- | -------------------------------------- | ----------- | -----------|
-|  Baseline (Weak)                   |$\mathbf{y}^{10}_{\text{weak}}$       |       17.69 |      1.994| 
+|  Baseline (Weak)                   |<img src="https://render.githubusercontent.com/render/math?math=\mathbf{y}^{10}_{\text{weak}}>       |       17.69 |      1.994| 
 |  PSL-10s (Proposed)                |$\hat{\mathbf{y}}^{10}_{\text{PSL}}$  |       31.13 |      2.454| 
 |  PSL-5s (Proposed)                 |$\hat{\mathbf{y}}^{5}_{\text{PSL}}$   |       34.11 |      2.549| 
 |  PSL-2s (Proposed)                 |$\hat{\mathbf{y}}^{2}_{\text{PSL}}$   |   **35.48** |  **2.588**| 
