@@ -1,0 +1,29 @@
+outputpath: experiments
+train_data: data/labels/balanced.csv
+cv_data: data/labels/balanced.csv
+test_data: data/labels/eval.csv
+loss: BCELoss 
+loss_args: {}
+student: MobileNetV2_DM
+student_args: {}
+teacher: MobileNetV2_DM
+teacher_args: {}
+pretrained_teacher: https://zenodo.org/record/6003838/files/mobilenetv2_mAP40_53.pt?download=1
+consistency_criterion: BCELoss  # default use bce for consistency training
+batch_size: 32
+chunk_length: 10
+warmup_iters: 1000
+ts_alpha: 0.5
+max_grad_norm: 2.0
+mixup: null
+epoch_length: null
+sampler: null
+num_workers: 2  # Number of dataset loaders
+spectransforms: {}  #Default no augmentation
+wavtransforms: {}
+early_stop: 15
+epochs: 300
+n_saved: 4
+optimizer: Adam
+optimizer_args:
+    lr: 0.001
