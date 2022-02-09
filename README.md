@@ -10,17 +10,17 @@ The aim of this work is to show that by adding automatic supervision on a fixed 
 Specifically, our method outperforms other approaches in literature on the ``balanced`` subset of Audioset, while using a rather simple MobileNetV2 architecture.
 
 
-Method                            Label                                          mAP        $d'$ 
-  --------------------------------- -------------------------------------- ----------- ----------- --
-  Baseline (Weak)                   $\mathbf{y}^{10}_{\text{weak}}$              17.69       1.994 
-  PSL-10s (Proposed)                $\hat{\mathbf{y}}^{10}_{\text{PSL}}$         31.13       2.454 
-  PSL-5s (Proposed)                 $\hat{\mathbf{y}}^{5}_{\text{PSL}}$          34.11       2.549 
-  PSL-2s (Proposed)                 $\hat{\mathbf{y}}^{2}_{\text{PSL}}$      **35.48**   **2.588** 
-  CNN14 [@Kong2020d]                $\mathbf{y}^{10}_{\text{weak}}$              27.80       1.850 
-  EfficientNet-B0 [@gong2021psla]                                                33.50          \- 
-  EfficientNet-B2 [@gong2021psla]                                                34.06          \- 
-  ResNet-50 [@gong2021psla]                                                      31.80          \- 
-  AST [@gong21b_interspeech]                                                     34.70          \- 
+| Method                            |Label                                          |mAP        | $d'$ |
+|  --------------------------------- | -------------------------------------- | ----------- | -----------|
+|  Baseline (Weak)                   |$\mathbf{y}^{10}_{\text{weak}}$       |       17.69 |      1.994| 
+|  PSL-10s (Proposed)                |$\hat{\mathbf{y}}^{10}_{\text{PSL}}$  |       31.13 |      2.454| 
+|  PSL-5s (Proposed)                 |$\hat{\mathbf{y}}^{5}_{\text{PSL}}$   |       34.11 |      2.549| 
+|  PSL-2s (Proposed)                 |$\hat{\mathbf{y}}^{2}_{\text{PSL}}$   |   **35.48** |  **2.588**| 
+|  CNN14 [@Kong2020d]                |$\mathbf{y}^{10}_{\text{weak}}$       |       27.80 |      1.850| 
+|  EfficientNet-B0 [@gong2021psla]   |                                      |       33.50 |         \-| 
+|  EfficientNet-B2 [@gong2021psla]   |                                      |       34.06 |         \-| 
+|  ResNet-50 [@gong2021psla]         |                                      |       31.80 |         \-| 
+|  AST [@gong21b_interspeech]        |                                      |       34.70 |         \-| 
 
 
 
