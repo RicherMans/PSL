@@ -2,6 +2,13 @@
 
 This repository contains the source code for our ICASSP2022 paper "Pseudo strong labels for large scale weakly supervised audio tagging".
 
+Highlights:
+
+* State-of-the-art on the balanced Audioset subset.
+* Simple MobileNetV2 model, don't need expensive GPU to run.
+* Quick training, since only 60h of balanced Audioset is required.
+* Achieves an mAP of 35.48 (more or less), useable for most real-world applications.
+
 
 ![PSL Architecture](figures/PSL.png)
 
