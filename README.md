@@ -1,6 +1,6 @@
 # Pseudo Strong Labels
 
-This repository contains the source code for our ICASSP2022 paper "Pseudo strong labels for large scale weakly supervised audio tagging".
+This repository contains the source code for our ICASSP2022 paper [Pseudo strong labels for large scale weakly supervised audio tagging](https://arxiv.org/abs/2204.13430).
 
 Highlights:
 
